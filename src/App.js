@@ -10,7 +10,6 @@ import Club from './pages/Club';
 import Fans from './pages/Fans';
 import Login from './pages/Login';
 
-
 function App() {
   return (
     <div className="App">
