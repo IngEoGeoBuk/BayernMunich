@@ -44,7 +44,7 @@ function News() {
             <Grid container spacing={1}>
                 <Grid item xs={12} md={4}>
                     <Box p={0} style={{ padding: "20px" }}>
-                        <a href="/">
+                        <a href="/BayernMunich">
                             <img src="https://i.esdrop.com/d/Kr9WK5Ceao.webp" width="100%" style={InHover1 ? hoverImgEnter : hoverImgLeave} 
                                 onMouseEnter = {() => setInHover1(true)}
                                 onMouseLeave = {() => setInHover1(false)}
@@ -66,7 +66,7 @@ function News() {
                 </Grid>
                 <Grid item xs={12} md={4}>
                     <Box p={0} style={{ padding: "20px" }}>
-                        <a href="/">
+                        <a href="/BayernMunich">
                             <img src="https://i.esdrop.com/d/RQH1miIgI4.webp" width="100%" style={InHover2 ? hoverImgEnter : hoverImgLeave}
                                 onMouseEnter = {() => setInHover2(true)}
                                 onMouseLeave = {() => setInHover2(false)}
@@ -87,7 +87,7 @@ function News() {
                 </Grid>
                 <Grid item xs={12} md={4}>
                     <Box p={0} style={{ padding: "20px" }}>
-                        <a href="/">
+                        <a href="/BayernMunich">
                             <img src="https://i.esdrop.com/d/oGTtZ8l4kP.webp" width="100%" style={InHover3 ? hoverImgEnter : hoverImgLeave}
                                 onMouseEnter = {() => setInHover3(true)}
                                 onMouseLeave = {() => setInHover3(false)}
