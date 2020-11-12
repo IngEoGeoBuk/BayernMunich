@@ -6,7 +6,7 @@ function Banner() {
         <div 
             style = {{ backgroundColor: "#F8F8FF" , textAlign: "center", padding: "10px"}}
         >
-            <a href="/">
+            <a href="/BayernMunich">
                 <img src="https://i.esdrop.com/d/OzMCzhaSQb.png" width="100%"/>
             </a>
         </div>
