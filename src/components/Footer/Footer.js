@@ -24,22 +24,22 @@ function Footer() {
                 >
                     <Box p={0}>
                         <div style={FooterImg}>
-                            <a href="/"><img src = "https://i.esdrop.com/d/B5Qe3xFsyM.png" width="100px"/></a>
+                            <a href="/BayernMunich"><img src = "https://i.esdrop.com/d/B5Qe3xFsyM.png" width="100px"/></a>
                         </div>
                     </Box>
                     <Box p={0}>
                         <div style={FooterImg}>
-                            <a href="/"><img src = "https://i.esdrop.com/d/6yxZfr65jA.png" width="100px"/></a>
+                            <a href="/BayernMunich"><img src = "https://i.esdrop.com/d/6yxZfr65jA.png" width="100px"/></a>
                         </div>
                     </Box>
                     <Box p={0}>
                         <div style={FooterImg}> 
-                            <a href="/"><img src = "https://i.esdrop.com/d/1W02FKOiHp.png" width="100px"/></a>
+                            <a href="/BayernMunich"><img src = "https://i.esdrop.com/d/1W02FKOiHp.png" width="100px"/></a>
                         </div>
                     </Box>
                     <Box p={0}>
                         <div style={FooterImg}>
-                            <a href="/"><img src = "https://i.esdrop.com/d/hg6NTUaDW7.png" width="100px"
+                            <a href="/BayernMunich"><img src = "https://i.esdrop.com/d/hg6NTUaDW7.png" width="100px"
                                 style={{paddingTop:"20px"}}
                             /></a>
                         </div>
