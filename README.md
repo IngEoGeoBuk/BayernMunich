@@ -1,3 +1,15 @@
+1. create-react-app client(name anything you wanna)
+2. cd client
+3. npm install @material-ui/core
+4. npm install node-sass@4.14.1 (if you just command npm install node-sass, An error will occur.)
+5. npm install @material-ui/icons
+6. npm install react-router-dom
+7. npm install --save styled-components
+8. npm install gh-pages --save-dev 
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
