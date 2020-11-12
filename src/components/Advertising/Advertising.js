@@ -16,21 +16,21 @@ function Advertising() {
             <Grid container spacing={1}>
                 <Grid item xs={12} md={4}>
                     <Box p={0} style={AdvertisingImg}>
-                        <a href="/">
+                        <a href="/BayernMunich">
                             <img src="https://i.esdrop.com/d/Y12SkSvZKO.gif" width="100%" />
                         </a>
                     </Box>
                 </Grid>
                 <Grid item xs={12} md={4}>
                     <Box p={0} style={AdvertisingImg}>
-                        <a href="/">
+                        <a href="/BayernMunich">
                             <img src="https://i.esdrop.com/d/vjaxXBp2lZ.jpg" width="100%" />
                         </a>
                     </Box>
                 </Grid>
                 <Grid item xs={12} md={4}>
                     <Box p={0} style={AdvertisingImg}>
-                        <a href="/">
+                        <a href="/BayernMunich">
                             <img src="https://i.esdrop.com/d/IeipP46AYG.jpg" width="100%" />
                         </a>
                     </Box>
