@@ -10,7 +10,7 @@ function Navbar() {
         <div>
 
             <Nav>
-                <NavLink to = "/"
+                <NavLink to = "/BayernMunich"
                     style={{ paddingLeft:"10px", paddingRight:"40px"}}
                 >
                     <img src = "https://i.esdrop.com/d/8gqkv7Kpzr.png" width="80px" height="80px"/>
