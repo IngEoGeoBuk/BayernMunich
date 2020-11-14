@@ -14,8 +14,8 @@ function LandingPage() {
 
     return (
         <div>
-            <Grid container spacing={1}>
-
+            <Grid container spacing={0}>
+            {/* spacing={1} 하면 공백생김...  */}
                 {/* Banner */}
                 <Grid item xs={12}>
                     <div>
@@ -26,14 +26,14 @@ function LandingPage() {
 
                 {/* Main */}
                 <Grid item xs={12} md={6}>
-                    <Box>
+                    <div>
                         <LeftMain/>
-                    </Box>
+                    </div>
                 </Grid>
                 <Grid item xs={12} md={6}>
-                    <Box>
+                    <div>
                         <RightMain/>
-                    </Box>
+                    </div>
                 </Grid>
 
                 {/* RecentMatch */}

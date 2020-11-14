@@ -26,7 +26,7 @@ function Honours() {
 
 
     return (
-        <div style = {{width : "100%"}}>
+        <div style = {{ width : "100%" }}>
             <Box display="flex" flexDirection="row" p={0} m={0}>
                 <div style={{ color : "rgb(162, 47, 73)", paddingLeft:"20px" }}>
                     <Typography variant="h4">

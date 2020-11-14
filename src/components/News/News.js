@@ -26,11 +26,11 @@ function News() {
     const hoverImgLeave = { opacity: "1" }
     
     return (
-        <div style = {{width : "100%"}}>
+        <div style = {{ width : "100%" }}>
             <br></br>
             <br></br>
-            <Box display="flex" flexDirection="row" p={0} m={0}>
-                <div style={{ color : "rgb(162, 47, 73)", paddingLeft:"20px", paddingTop: "10px" }}>
+            <Box display="flex" flexDirection="row">
+                <div style={{ color : "rgb(162, 47, 73)", marginLeft:"20px", paddingTop: "10px" }}>
                     <Typography variant="h4">
                         NEWS
                     </Typography>
@@ -41,7 +41,8 @@ function News() {
             </Box>
 
 
-            <Grid container spacing={1}>
+            <Grid container spacing={0}>
+                {/* spacing={1} 하면 공백생김...  */}
                 <Grid item xs={12} md={4}>
                     <Box p={0} style={{ padding: "20px" }}>
                         <a href="/BayernMunich">

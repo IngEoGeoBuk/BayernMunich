@@ -5,7 +5,6 @@ import FullScreenDialog from './Dialog'
 import MenuListComposition from '../Navbar/Menu'
 
 function Navbar() {
-
     return (
         <div>
             <Nav>

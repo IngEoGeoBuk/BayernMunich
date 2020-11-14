@@ -10,16 +10,17 @@ function Advertising() {
     `
     const MobileVer = styled.div`
         display: none;
+        padding: 0;
         @media screen and (max-width: 600px) {
             display: grid;
         }
     `
 
     const AdvertisingImg = {
-        padding: "20px 20px",
+        padding: "20px 10px",
         margin: "0px"
     }
-    
+
     return (
             <div style = {{ backgroundColor: "#F8F8FF", padding:"0 10vh", width : "100%"}}>
                 <PcVer>
@@ -47,18 +48,18 @@ function Advertising() {
                         </Grid>
                     </Grid>
                 </PcVer>
-                    <MobileVer>
-                        <div>
-                            <img src="https://i.esdrop.com/d/Y12SkSvZKO.gif" width="100%" />
-                        </div>
-                        <div>
-                            <img src="https://i.esdrop.com/d/vjaxXBp2lZ.jpg" width="100%" />
-                        </div>
-                        <div>
-                            <img src="https://i.esdrop.com/d/IeipP46AYG.jpg" width="100%"/>
-                        </div>
-                        
-                    </MobileVer>
+                <MobileVer>
+                    <div sytle={{ width: "100%"}}>
+                        <img src="https://i.esdrop.com/d/Y12SkSvZKO.gif" width="100%" />
+                    </div>
+                    <div>
+                        <img src="https://i.esdrop.com/d/vjaxXBp2lZ.jpg" width="100%" />
+                    </div>
+                    <div>
+                        <img src="https://i.esdrop.com/d/IeipP46AYG.jpg" width="100%"/>
+                    </div>
+                    
+                </MobileVer>
             </div>
     )
 }
