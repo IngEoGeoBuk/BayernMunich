@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/BayernMunich/static/css/main.436f2ed1.chunk.css",
-    "main.js": "/BayernMunich/static/js/main.ff2c948c.chunk.js",
-    "main.js.map": "/BayernMunich/static/js/main.ff2c948c.chunk.js.map",
+    "main.js": "/BayernMunich/static/js/main.230708f5.chunk.js",
+    "main.js.map": "/BayernMunich/static/js/main.230708f5.chunk.js.map",
     "runtime-main.js": "/BayernMunich/static/js/runtime-main.f2b66504.js",
     "runtime-main.js.map": "/BayernMunich/static/js/runtime-main.f2b66504.js.map",
-    "static/js/2.ae83444c.chunk.js": "/BayernMunich/static/js/2.ae83444c.chunk.js",
-    "static/js/2.ae83444c.chunk.js.map": "/BayernMunich/static/js/2.ae83444c.chunk.js.map",
+    "static/js/2.8db6b80e.chunk.js": "/BayernMunich/static/js/2.8db6b80e.chunk.js",
+    "static/js/2.8db6b80e.chunk.js.map": "/BayernMunich/static/js/2.8db6b80e.chunk.js.map",
     "static/js/3.a6369b3b.chunk.js": "/BayernMunich/static/js/3.a6369b3b.chunk.js",
     "static/js/3.a6369b3b.chunk.js.map": "/BayernMunich/static/js/3.a6369b3b.chunk.js.map",
     "index.html": "/BayernMunich/index.html",
     "static/css/main.436f2ed1.chunk.css.map": "/BayernMunich/static/css/main.436f2ed1.chunk.css.map",
-    "static/js/2.ae83444c.chunk.js.LICENSE.txt": "/BayernMunich/static/js/2.ae83444c.chunk.js.LICENSE.txt"
+    "static/js/2.8db6b80e.chunk.js.LICENSE.txt": "/BayernMunich/static/js/2.8db6b80e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f2b66504.js",
-    "static/js/2.ae83444c.chunk.js",
+    "static/js/2.8db6b80e.chunk.js",
     "static/css/main.436f2ed1.chunk.css",
-    "static/js/main.ff2c948c.chunk.js"
+    "static/js/main.230708f5.chunk.js"
   ]
 }
