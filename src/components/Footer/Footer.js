@@ -35,7 +35,7 @@ function Footer() {
                     <img src = "https://i.esdrop.com/d/8gqkv7Kpzr.png" width="10%"/>
                 </PcVer>
                 <MobileVer>
-                    <img src = "https://i.esdrop.com/d/8gqkv7Kpzr.png" width="30%"/>
+                    <img src = "https://i.esdrop.com/d/8gqkv7Kpzr.png" width="90rem" height="90rem"/>
                 </MobileVer>
             </div>
             <div style = {{ backgroundColor: 'rgba(220, 5, 44)', color: "white"}}>
