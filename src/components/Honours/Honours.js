@@ -1,5 +1,6 @@
 import React from 'react';
 import { Typography, Box, Divider, Grid } from "@material-ui/core";
+import { PcVer, MobileVer } from "./HonoursElements";
 
 function Honours() {
 
@@ -50,137 +51,149 @@ function Honours() {
             </div>
             <br/>
 
-            <Grid container spacing={0}>
-                <Grid item xs={12} lg={6}>
-                    <Box display="flex" flexDirection="row" p={0} m="auto" justifyContent= "center">
-                        <div style = {BoxPadding}>
-                            <img src="https://i.esdrop.com/d/UDeElYTfJK.webp" width="100%"/>
-                            <Typography variant="h4" style={honoursNumberColor}>30</Typography>
-                            <Typography variant="subtitle2" style={honoursColor}>German Championship</Typography>
-                        </div>
-                        <Divider orientation="vertical" flexItem />
-                        <div style = {BoxPadding}>
-                            <img src="https://i.esdrop.com/d/55WybIj1oS.webp" width="100%"/>
-                            <Typography variant="h4" style={honoursNumberColor}>20</Typography>
-                            <Typography variant="subtitle2" style={honoursColor}>DFB German Cup</Typography>
-                        </div>
-                        <Divider orientation="vertical" flexItem />
-                        <div style = {BoxPadding}>
-                            <img src="https://i.esdrop.com/d/r2mmYcN3k6.webp" width="100%"/>
-                            <Typography variant="h4" style={honoursNumberColor}>9</Typography>
-                            <Typography variant="subtitle2" style={honoursColor}>German Supercup</Typography>
-                        </div>
-                        <Divider orientation="vertical" flexItem />
-                        <div style = {BoxPadding}>
-                            <img src="https://i.esdrop.com/d/LAu00m3TQL.webp" width="100%"/>
-                            <Typography variant="h4" style={honoursNumberColor}>6</Typography>
-                            <Typography variant="subtitle2" style={honoursColor}>League Cup</Typography>
-                        </div>
-                        <Divider orientation="vertical" flexItem />
-                        <div style = {BoxPadding}>
-                            <img src="https://i.esdrop.com/d/ibKToOFmvy.webp" width="100%"/>
-                            <Typography variant="h4" style={honoursNumberColor}>6</Typography>
-                            <Typography variant="subtitle2" style={honoursColor}>Champions League</Typography>
-                        </div>
-                    </Box>
+            <PcVer>
+                <Grid container spacing={0}>
+                    <Grid item xs={12} lg={6}>
+                        <Box display="flex" flexDirection="row" p={0} m="auto" justifyContent= "center">
+                            <div style = {BoxPadding}>
+                                <img src="https://i.esdrop.com/d/UDeElYTfJK.webp" width="100%"/>
+                                <Typography variant="h4" style={honoursNumberColor}>30</Typography>
+                                <Typography variant="subtitle2" style={honoursColor}>German Championship</Typography>
+                            </div>
+                            <Divider orientation="vertical" flexItem />
+                            <div style = {BoxPadding}>
+                                <img src="https://i.esdrop.com/d/55WybIj1oS.webp" width="100%"/>
+                                <Typography variant="h4" style={honoursNumberColor}>20</Typography>
+                                <Typography variant="subtitle2" style={honoursColor}>DFB German Cup</Typography>
+                            </div>
+                            <Divider orientation="vertical" flexItem />
+                            <div style = {BoxPadding}>
+                                <img src="https://i.esdrop.com/d/r2mmYcN3k6.webp" width="100%"/>
+                                <Typography variant="h4" style={honoursNumberColor}>9</Typography>
+                                <Typography variant="subtitle2" style={honoursColor}>German Supercup</Typography>
+                            </div>
+                            <Divider orientation="vertical" flexItem />
+                            <div style = {BoxPadding}>
+                                <img src="https://i.esdrop.com/d/LAu00m3TQL.webp" width="100%"/>
+                                <Typography variant="h4" style={honoursNumberColor}>6</Typography>
+                                <Typography variant="subtitle2" style={honoursColor}>League Cup</Typography>
+                            </div>
+                            <Divider orientation="vertical" flexItem />
+                            <div style = {BoxPadding}>
+                                <img src="https://i.esdrop.com/d/ibKToOFmvy.webp" width="100%"/>
+                                <Typography variant="h4" style={honoursNumberColor}>6</Typography>
+                                <Typography variant="subtitle2" style={honoursColor}>Champions League</Typography>
+                            </div>
+                        </Box>
+                    </Grid>
+                    
+                    <Grid item xs={12} lg={6}>
+                        <Box display="flex" flexDirection="row" p={0} m="auto" justifyContent= "center">
+                            <div style = {BoxPadding}>
+                                <img src="https://i.esdrop.com/d/duCrwqsqzW.webp" width="100%"/>
+                                <Typography variant="h4" style={honoursNumberColor}>1</Typography>
+                                <Typography variant="subtitle2" style={honoursColor}>UEFA Cup</Typography>
+                            </div>
+                            <Divider orientation="vertical" flexItem />
+                            <div style = {BoxPadding}>
+                                <img src="https://i.esdrop.com/d/fTfapT9nvm.webp" width="100%"/>
+                                <Typography variant="h4" style={honoursNumberColor}>1</Typography>
+                                <Typography variant="subtitle2" style={honoursColor}>UEFA Cup Winners' Cup</Typography>
+                            </div>
+                            <Divider orientation="vertical" flexItem />
+                            <div style = {BoxPadding}>
+                                <img src="https://i.esdrop.com/d/FWQVR0zBXv.webp" width="100%"/>
+                                <Typography variant="h4" style={honoursNumberColor}>2</Typography>
+                                <Typography variant="subtitle2" style={honoursColor}>Intercontinental Cup</Typography>
+                            </div>
+                            <Divider orientation="vertical" flexItem />
+                            <div style = {BoxPadding}>
+                                <img src="https://i.esdrop.com/d/DY5qJvYdbi.webp" width="100%"/>
+                                <Typography variant="h4" style={honoursNumberColor}>1</Typography>
+                                <Typography variant="subtitle2" style={honoursColor}>FIFA Club World Cup</Typography>
+                            </div>
+                            <Divider orientation="vertical" flexItem />
+                            <div style = {BoxPadding}>
+                                <img src="https://i.esdrop.com/d/2J0ncCdL9D.webp" width="100%"/>
+                                <Typography variant="h4" style={honoursNumberColor}>2</Typography>
+                                <Typography variant="subtitle2" style={honoursColor}>UEFA Supercup</Typography>
+                            </div>
+                        </Box>
+                    </Grid>
                 </Grid>
-                
-                <Grid item xs={12} lg={6}>
-                <Box display="flex" flexDirection="row" p={0} m="auto" justifyContent= "center">
-                        <div style = {BoxPadding}>
-                            <img src="https://i.esdrop.com/d/duCrwqsqzW.webp" width="100%"/>
-                            <Typography variant="h4" style={honoursNumberColor}>1</Typography>
-                            <Typography variant="subtitle2" style={honoursColor}>UEFA Cup</Typography>
-                        </div>
-                        <Divider orientation="vertical" flexItem />
-                        <div style = {BoxPadding}>
-                            <img src="https://i.esdrop.com/d/fTfapT9nvm.webp" width="100%"/>
-                            <Typography variant="h4" style={honoursNumberColor}>1</Typography>
-                            <Typography variant="subtitle2" style={honoursColor}>UEFA Cup Winners' Cup</Typography>
-                        </div>
-                        <Divider orientation="vertical" flexItem />
-                        <div style = {BoxPadding}>
-                            <img src="https://i.esdrop.com/d/FWQVR0zBXv.webp" width="100%"/>
-                            <Typography variant="h4" style={honoursNumberColor}>2</Typography>
-                            <Typography variant="subtitle2" style={honoursColor}>Intercontinental Cup</Typography>
-                        </div>
-                        <Divider orientation="vertical" flexItem />
-                        <div style = {BoxPadding}>
-                            <img src="https://i.esdrop.com/d/DY5qJvYdbi.webp" width="100%"/>
-                            <Typography variant="h4" style={honoursNumberColor}>1</Typography>
-                            <Typography variant="subtitle2" style={honoursColor}>FIFA Club World Cup</Typography>
-                        </div>
-                        <Divider orientation="vertical" flexItem />
-                        <div style = {BoxPadding}>
-                            <img src="https://i.esdrop.com/d/2J0ncCdL9D.webp" width="100%"/>
-                            <Typography variant="h4" style={honoursNumberColor}>2</Typography>
-                            <Typography variant="subtitle2" style={honoursColor}>UEFA Supercup</Typography>
-                        </div>
-                    </Box>
+                <br></br><br></br>
+            </PcVer>
+
+            <MobileVer>
+                <Grid container spacing={0}>
+                    <Grid item xs={12}>
+                        <Box display="flex" flexDirection="row" p={0} m="auto" justifyContent= "center">
+                            <div style = {BoxPadding}>
+                                <img src="https://i.esdrop.com/d/UDeElYTfJK.webp" width="100%"/>
+                                <Typography variant="h4" style={honoursNumberColor}>30</Typography>
+                                <Typography variant="subtitle2" style={honoursColor}>German Championship</Typography>
+                            </div>
+                            <Divider orientation="vertical" flexItem />
+                            <div style = {BoxPadding}>
+                                <img src="https://i.esdrop.com/d/55WybIj1oS.webp" width="100%"/>
+                                <Typography variant="h4" style={honoursNumberColor}>20</Typography>
+                                <Typography variant="subtitle2" style={honoursColor}>DFB German Cup</Typography>
+                            </div>
+                            <Divider orientation="vertical" flexItem />
+                            <div style = {BoxPadding}>
+                                <img src="https://i.esdrop.com/d/r2mmYcN3k6.webp" width="100%"/>
+                                <Typography variant="h4" style={honoursNumberColor}>9</Typography>
+                                <Typography variant="subtitle2" style={honoursColor}>German Supercup</Typography>
+                            </div>
+                        </Box>
+                    </Grid>
+                    
+                    <Grid item xs={12}>
+                    <Box display="flex" flexDirection="row" p={0} m="auto" justifyContent= "center">             
+                            <div style = {BoxPadding}>
+                                <img src="https://i.esdrop.com/d/LAu00m3TQL.webp" width="100%"/>
+                                <Typography variant="h4" style={honoursNumberColor}>6</Typography>
+                                <Typography variant="subtitle2" style={honoursColor}>League Cup</Typography>
+                            </div>
+                            <Divider orientation="vertical" flexItem />
+                            <div style = {BoxPadding}>
+                                <img src="https://i.esdrop.com/d/ibKToOFmvy.webp" width="100%"/>
+                                <Typography variant="h4" style={honoursNumberColor}>6</Typography>
+                                <Typography variant="subtitle2" style={honoursColor}>Champions League</Typography>
+                            </div>
+                            <Divider orientation="vertical" flexItem />
+                            <div style = {BoxPadding}>
+                                <img src="https://i.esdrop.com/d/duCrwqsqzW.webp" width="100%"/>
+                                <Typography variant="h4" style={honoursNumberColor}>1</Typography>
+                                <Typography variant="subtitle2" style={honoursColor}>UEFA Cup</Typography>
+                            </div>
+                        </Box>
+                    </Grid>
+
+                    <Grid item xs={12}>
+                        <Box display="flex" flexDirection="row" p={0} m="auto" justifyContent= "center">
+                            <div style = {BoxPadding}>
+                                <img src="https://i.esdrop.com/d/FWQVR0zBXv.webp" width="100%"/>
+                                <Typography variant="h4" style={honoursNumberColor}>2</Typography>
+                                <Typography variant="subtitle2" style={honoursColor}>Intercontinental Cup</Typography>
+                            </div>
+                            <Divider orientation="vertical" flexItem />
+                            <div style = {BoxPadding}>
+                                <img src="https://i.esdrop.com/d/DY5qJvYdbi.webp" width="100%"/>
+                                <Typography variant="h4" style={honoursNumberColor}>1</Typography>
+                                <Typography variant="subtitle2" style={honoursColor}>FIFA Club World Cup</Typography>
+                            </div>
+                            <Divider orientation="vertical" flexItem />
+                            <div style = {BoxPadding}>
+                                <img src="https://i.esdrop.com/d/2J0ncCdL9D.webp" width="100%"/>
+                                <Typography variant="h4" style={honoursNumberColor}>2</Typography>
+                                <Typography variant="subtitle2" style={honoursColor}>UEFA Supercup</Typography>
+                            </div>
+                        </Box>
+                    </Grid>
                 </Grid>
-            </Grid>
-            <br></br><br></br>
-            {/* <Box display="flex" flexDirection="row" p={0} m="auto" justifyContent= "center">
-                <Box p={0} style={{ padding: "0 10px" }}>
-                    <img src="https://i.esdrop.com/d/UDeElYTfJK.webp" width="100%"/>
-                    <Typography variant="h4" style={honoursNumberColor}>30</Typography>
-                    <Typography variant="subtitle2" style={honoursColor}>German Championship</Typography>
-                </Box>
-                <Divider orientation="vertical" flexItem />
-                <Box p={0} style={BoxPadding}>
-                    <img src="https://i.esdrop.com/d/55WybIj1oS.webp" width="100%"/>
-                    <Typography variant="h4" style={honoursNumberColor}>20</Typography>
-                    <Typography variant="subtitle2" style={honoursColor}>DFB German Cup</Typography>
-                </Box>
-                <Divider orientation="vertical" flexItem />
-                <Box p={0} style={BoxPadding}>
-                    <img src="https://i.esdrop.com/d/r2mmYcN3k6.webp" width="100%"/>
-                    <Typography variant="h4" style={honoursNumberColor}>9</Typography>
-                    <Typography variant="subtitle2" style={honoursColor}>German Supercup</Typography>
-                </Box>
-                <Divider orientation="vertical" flexItem />
-                <Box p={0} style={BoxPadding}>
-                    <img src="https://i.esdrop.com/d/LAu00m3TQL.webp" width="100%"/>
-                    <Typography variant="h4" style={honoursNumberColor}>6</Typography>
-                    <Typography variant="subtitle2" style={honoursColor}>League Cup</Typography>
-                </Box>
-                <Divider orientation="vertical" flexItem />
-                <Box p={0} style={BoxPadding}>
-                    <img src="https://i.esdrop.com/d/ibKToOFmvy.webp" width="100%"/>
-                    <Typography variant="h4" style={honoursNumberColor}>6</Typography>
-                    <Typography variant="subtitle2" style={honoursColor}>Champions League</Typography>
-                </Box>
-                <Divider orientation="vertical" flexItem />
-                <Box p={0} style={BoxPadding}>
-                    <img src="https://i.esdrop.com/d/duCrwqsqzW.webp" width="100%"/>
-                    <Typography variant="h4" style={honoursNumberColor}>1</Typography>
-                    <Typography variant="subtitle2" style={honoursColor}>UEFA Cup</Typography>
-                </Box>
-                <Divider orientation="vertical" flexItem />
-                <Box p={0} style={BoxPadding}>
-                    <img src="https://i.esdrop.com/d/fTfapT9nvm.webp" width="100%"/>
-                    <Typography variant="h4" style={honoursNumberColor}>1</Typography>
-                    <Typography variant="subtitle2" style={honoursColor}>UEFA Cup Winners' Cup</Typography>
-                </Box>
-                <Divider orientation="vertical" flexItem />
-                <Box p={0} style={BoxPadding}>
-                    <img src="https://i.esdrop.com/d/FWQVR0zBXv.webp" width="100%"/>
-                    <Typography variant="h4" style={honoursNumberColor}>2</Typography>
-                    <Typography variant="subtitle2" style={honoursColor}>Intercontinental Cup</Typography>
-                </Box>
-                <Divider orientation="vertical" flexItem />
-                <Box p={0} style={BoxPadding}>
-                   <img src="https://i.esdrop.com/d/DY5qJvYdbi.webp" width="100%"/>
-                    <Typography variant="h4" style={honoursNumberColor}>1</Typography>
-                    <Typography variant="subtitle2" style={honoursColor}>FIFA Club World Cup</Typography>
-                </Box>
-                <Divider orientation="vertical" flexItem />
-                <Box p={0} style={BoxPadding}>
-                    <img src="https://i.esdrop.com/d/2J0ncCdL9D.webp" width="100%"/>
-                    <Typography variant="h4" style={honoursNumberColor}>2</Typography>
-                    <Typography variant="subtitle2" style={honoursColor}>UEFA Supercup</Typography>
-                </Box>
-            </Box> */}
+            </MobileVer>
+
         </div>
             
     )

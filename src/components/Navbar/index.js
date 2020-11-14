@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav, NavLink, Bars, NavMenu, NavBtnLink, NavTop, Bars2 } from './NavbarElements';
+import { Nav, NavLink, Bars, NavMenu, NavBtnLink, NavTop, Bars2, PcVer, MobileVer } from './NavbarElements';
 import { Typography, Divider } from "@material-ui/core"
 import FullScreenDialog from './Dialog'
 import MenuListComposition from '../Navbar/Menu'
@@ -8,34 +8,43 @@ function Navbar() {
 
     return (
         <div>
-
             <Nav>
-                <NavLink to = "/BayernMunich"
-                    style={{ paddingLeft:"10px", paddingRight:"40px"}}
-                >
-                    <img src = "https://i.esdrop.com/d/8gqkv7Kpzr.png" width="80px" height="80px"/>
-                    <div style={{ color: "white", paddingLeft:"20px"}}>
-                        <Typography variant="subtitle2">
-                            OFFICIAL WEBSITE OF
-                        </Typography>
-                        <Typography variant="h6">
-                            FC BAYERN MUNICH
-                        </Typography>
-                    </div>
+                <NavLink to = "/BayernMunich" style={{ paddingLeft:"10px", paddingRight:"40px"}}>
+                    <img src = "https://i.esdrop.com/d/8gqkv7Kpzr.png" width="80em" height="80em" />
+                    <PcVer>
+                        <div style={{ color: "white", paddingLeft:"20px"}}>
+                            <Typography variant="subtitle2">
+                                OFFICIAL WEBSITE OF
+                            </Typography>
+                            <Typography variant="h6">
+                                FC BAYERN MUNICH
+                            </Typography>
+                        </div>
+                    </PcVer>
+
+                    <MobileVer>
+                        <div style={{ color: "white", paddingLeft:"10px"}}>
+                            <Typography variant="h6">
+                                FC BAYERN
+                            </Typography>
+                        </div>
+                    </MobileVer>
                 </NavLink>
 
                 <Bars>
                     <FullScreenDialog/>
                 </Bars>
 
-                <Bars2>
-                <div style={{ padding:"0px 10px", marginTop:"5px" }}>
-                            presented by 
-                        </div>
-                        <div>
+                <PcVer>
+                    <Bars2>
+                        <div style={{ padding:"0px 10px", marginTop:"20px" }}>
+                                presented by 
+                            </div>
+                        <div style={{ paddingTop:"10px" }}>
                             <img src = "https://i.esdrop.com/d/m2gOCQT7EE.svg" width="40px" height="40px"/>
                         </div>
-                </Bars2>
+                    </Bars2>
+                </PcVer>
                 
                 <NavMenu>
                     <NavTop>

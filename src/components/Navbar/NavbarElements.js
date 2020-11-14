@@ -109,3 +109,17 @@ export const NavBtnLink = styled(Link)`
     color: lightgray;
   }
 `
+
+export const PcVer = styled.div`
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
+  `
+export const MobileVer = styled.div`
+    display: none;
+    text-align: center;
+    justify-content: center;
+    @media screen and (max-width: 600px) {
+        display: flex;
+    }
+  `
