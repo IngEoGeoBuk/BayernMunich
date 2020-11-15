@@ -31,12 +31,12 @@
     top:0;
     left:0;
     width:100%;
-    padding-top:40%;
+    padding-top:42%;
     text-align:left;
     font-weight:bold;
-    font-size:2rem;
+    font-size:2vw;
     color:white;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 0.08vw black;
     font-family:arial;
   }
   
