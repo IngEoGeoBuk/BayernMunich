@@ -1,18 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './RightMain.css'
 
 function RightMain() {
 
-    const [InHover, setInHover] = useState(false)
-
-    const hoverImgEnter = { opacity: "0.75" }
-    const hoverImgLeave = { opacity: "1" }
-
     return (
-        <div class="wrapper" style={InHover? hoverImgEnter:hoverImgLeave}
-                 onMouseEnter = {() => setInHover(true)}
-                onMouseLeave = {() => setInHover(false)}>
-            <div class="divimage">
+        <div class="wrapper" style = {{zIndex:"-10"}} > 
+            <div class="divimage" >
             </div>
             <div class="divtext">
                 Bayern Munich wins
