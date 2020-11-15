@@ -9,14 +9,25 @@ function RightMain() {
     const hoverImgLeave = { opacity: "1" }
 
     return (
-    
-        <div>         
-            <img src="https://i.esdrop.com/d/NeXHnnqhIj.jpg"
-                width="100%" style={InHover ? hoverImgEnter : hoverImgLeave} 
-                onMouseEnter = {() => setInHover(true)}
-                onMouseLeave = {() => setInHover(false)}
-            />
+        <div class="wrapper" style={InHover? hoverImgEnter:hoverImgLeave}
+                 onMouseEnter = {() => setInHover(true)}
+                onMouseLeave = {() => setInHover(false)}>
+            <div class="divimage">
+            </div>
+            <div class="divtext">
+                Bayern Munich wins
+                <br></br>
+                6th Champions League title
+            </div>
         </div>
+
+        // <div>         
+        //     <img src="https://i.esdrop.com/d/NeXHnnqhIj.jpg"
+        //         width="100%" style={InHover ? hoverImgEnter : hoverImgLeave} 
+        //         onMouseEnter = {() => setInHover(true)}
+        //         onMouseLeave = {() => setInHover(false)}
+        //     />
+        // </div>
     )
 }
 
